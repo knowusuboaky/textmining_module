@@ -88,20 +88,8 @@ The `KeywordsExtractor` extracts keywords from textual data within a
 
 ### Functions Map
 
-::: cell
-::: cell-output-display
-<div>
+<img src="README_files/figure-markdown/mermaid-figure-2.png" width="730" height="1615" alt="Optional Alt Text">
 
-<div>
-
-![](README_files\figure-markdown\mermaid-figure-2.png){width="7.6in"
-height="16.82in"}
-
-</div>
-
-</div>
-:::
-:::
 
 ### User Manual
 
