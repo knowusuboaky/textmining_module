@@ -22,20 +22,8 @@ various analysis and machine learning models.
 
 ### Functions Map
 
-::: cell
-::: cell-output-display
-<div>
+<img src="README_files/figure-markdown/mermaid-figure-1.png" width="800" height="240" alt="Optional Alt Text">
 
-<div>
-
-![](README_files\figure-markdown\mermaid-figure-1.png){width="15.9in"
-height="4.78in"}
-
-</div>
-
-</div>
-:::
-:::
 
 ### User Manual
 
