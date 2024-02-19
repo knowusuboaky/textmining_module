@@ -22,7 +22,7 @@ various analysis and machine learning models.
 
 ### Functions Map
 
-<img src="README_files/figure-markdown/mermaid-figure-1.png" width="800" height="240" alt="Optional Alt Text">
+<img src="README_files/figure-markdown/mermaid-figure-1.png" width="1526" height="459" alt="Optional Alt Text">
 
 
 ### User Manual
