@@ -361,9 +361,12 @@ row-wise clusters.
 text_modeling_cluster.reqCleanedData()
 ```
 
+
+
 > **Be Careful**
 >
 > Comments used for unsupervised clustering don't always have the needed keywords to fetch meaningful clusters - meaningful as they don't require a rigorous manual verification.
+
 
 
 ##### Weighted Balanced Random Forest
@@ -395,13 +398,13 @@ text_modeling = TextMiner(data,
 text_modeling_fit = text_modeling.fit(n_round=5, n_fold=3, train_ratio=0.6, optim_metric='accuracy', n_jobs=1, skl_verbose=0, verbose=False)
 ```
 
-<div>
+
 
 > **This is important for scoring**
 >
 > Make sure `req_importance_score`=True in the `TextMiner`.
 
-</div>
+
 
 With the above, we can now find the best set of hyperparameters :
 
@@ -519,7 +522,7 @@ Harmonic score can be requested by calling YAKE keywords output.
 text_modeling_fit.reqYAKEKeywords()
 ```
 
-<div>
+
 
 > **Best Scoring Method**
 >
@@ -532,7 +535,7 @@ text_modeling_fit.reqYAKEKeywords()
 > making any one of them a potentially good choice depending on the
 > particular requirements and goals of the analysis.
 
-</div>
+
 
 ## Ideal Use Cases
 
