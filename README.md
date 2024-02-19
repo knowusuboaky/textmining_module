@@ -361,15 +361,11 @@ row-wise clusters.
 text_modeling_cluster.reqCleanedData()
 ```
 
-<div>
+::: {.callout-important}
+## Be Careful
 
-> **Be Careful**
->
-> Comments used for unsupervised clustering doesn't always have the
-> needed keywords to fetch meaningful clusters - meaningful as they
-> don't require a rigorous manual verification.
-
-</div>
+Comments used for unsupervised clustering doesn't always have the needed keywords to fetch meaningful clusters - meaningful as they don't require a rigorous manual verification. 
+:::
 
 ##### Weighted Balanced Random Forest
 
