@@ -33,7 +33,7 @@ This is the environment we need to load.
 
 ``` bash
 
-pip install textmining_module==0.1.0
+pip install textmining_module==0.1.2
 ```
 
 #### Load Package
@@ -99,7 +99,7 @@ This is the environment we need to load.
 
 ``` bash
 
-pip install textmining_module==0.1.0
+pip install textmining_module==0.1.2
 ```
 
 #### Load Package
