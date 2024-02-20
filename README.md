@@ -463,12 +463,21 @@ particularly useful for feature selection, understanding the data, and
 interpreting the model's behavior, allowing you to make informed
 decisions about which features to keep, discard, or further investigate.
 
+We can view by No Strata (Remember to set `strata_variable` = `'None'` in TextMiner then fit the model) 
+
+``` bash
+
+mdi_importances_df = pd.DataFrame(text_modeling.mdi_importances.items(), columns=['Feature', 'Importance'])
+```
+
+We can view by Strata (Remember to set `strata_variable` = `'LoB_column'` in TextMiner then fit the model) 
+
 ``` bash
 
 results_df = pd.DataFrame()
 
-for s in text_modeling_fit.reqUniqueStratas():
-    temp_df = pd.DataFrame(list(text_modeling_fit.mdi_importances_by_s[s].items()), columns=['Keyword', f'{s}_Importance'])
+for s in text_modeling.reqUniqueStratas():
+    temp_df = pd.DataFrame(list(text_modeling.mdi_importances_by_s[s].items()), columns=['Keyword', f'{s}_Importance'])
     if results_df.empty:
         results_df = temp_df
     else:
@@ -483,12 +492,21 @@ any model. It measures the increase in the model's prediction after
 permuting the feature's values, which breaks the relationship between
 the feature and the true outcome.
 
+We can view by No Strata (Remember to set `strata_variable` = `'None'` in TextMiner then fit the model) 
+
+``` bash
+
+perm_importances_df = pd.DataFrame(text_modeling.perm_importances.items(), columns=['Feature', 'Importance'])
+```
+
+We can view by Strata (Remember to set `strata_variable` = `'LoB_column'` in TextMiner then fit the model) 
+
 ``` bash
 
 results_df = pd.DataFrame()
 
-for s in text_modeling_fit.reqUniqueStratas():
-    temp_df = pd.DataFrame(list(text_modeling_fit.perm_importances_by_s[s].items()), columns=['Keyword', f'{s}_Importance'])
+for s in text_modeling.reqUniqueStratas():
+    temp_df = pd.DataFrame(list(text_modeling.perm_importances_by_s[s].items()), columns=['Keyword', f'{s}_Importance'])
     if results_df.empty:
         results_df = temp_df
     else:
@@ -519,7 +537,7 @@ Harmonic score can be requested by calling YAKE keywords output.
 
 ``` bash
 
-text_modeling_fit.reqYAKEKeywords()
+text_modeling.reqYAKEKeywords()
 ```
 
 
@@ -607,7 +625,7 @@ open issues.
 ## Documentation & Examples
 
 For documentation and usage examples, visit the GitHub repository:
-https://github.com/knowusuboaky/textmining_module\
+https://github.com/knowusuboaky/textmining_module
 
 **Author**: Kwadwo Daddy Nyame Owusu - Boakye\
 **Email**: kwadwo.owusuboakye@outlook.com\
