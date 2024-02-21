@@ -1,4 +1,5 @@
-# Text Mining Module Library
+# Text Mining Module Library - A Comprehensive Python Library Designed to
+Facilitate Text Mining, Keyword Extraction, and Text Analysis.
 
 ## Overview
 
