@@ -4,9 +4,6 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/textmining-module.svg)](https://pypi.org/project/textmining-module/)
 [![PyPI version](https://img.shields.io/pypi/v/textmining-module.svg)](https://pypi.org/project/textmining-module/)
 [![Downloads](https://img.shields.io/pypi/dm/textmining-module.svg?label=Downloads)](https://pypi.org/project/textmining-module/#files)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/knowusuboaky/textmining_module/main.yml)](https://github.com/knowusuboaky/textmining_module/actions)
-[![GitHub stars](https://img.shields.io/github/stars/knowusuboaky/textmining_module.svg)](https://github.com/knowusuboaky/textmining_module/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/knowusuboaky/textmining_module.svg)](https://github.com/knowusuboaky/textmining_module/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/knowusuboaky/textmining_module.svg)](https://github.com/knowusuboaky/textmining_module/issues)
 [![Email](https://img.shields.io/badge/Email-kwadwo.owusuboakye%40outlook.com-blue)](mailto:kwadwo.owusuboakye@outlook.com)
 
