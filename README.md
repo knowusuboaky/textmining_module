@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Versions](https://img.shields.io/pypi/pyversions/textmining-module.svg)](https://pypi.org/project/textmining-module/)
 [![PyPI version](https://img.shields.io/pypi/v/textmining-module.svg)](https://pypi.org/project/textmining-module/)
-[![Downloads](https://img.shields.io/pypi/dm/textmining-module.svg?label=Downloads)](https://pypi.org/project/textmining-module/#files)
+[![Downloads](https://pepy.tech/badge/textmining-module)](https://pepy.tech/project/textmining-module)
 [![GitHub issues](https://img.shields.io/github/issues/knowusuboaky/textmining_module.svg)](https://github.com/knowusuboaky/textmining_module/issues)
 [![Email](https://img.shields.io/badge/Email-kwadwo.owusuboakye%40outlook.com-blue)](mailto:kwadwo.owusuboakye@outlook.com)
 
